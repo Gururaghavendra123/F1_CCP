@@ -1,0 +1,32 @@
+# --- python junk ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- environments & editors ---
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- project data & caches ---
+f1_cache/
+outputs/**
+models/**
+data/**
+
+# keep tiny docs/placeholders
+!outputs/.gitkeep
+!models/.gitkeep
+!data/.gitkeep
+!data/README.md
+
+# if you want to keep a tiny sample dataset:
+# !data/samples/**
